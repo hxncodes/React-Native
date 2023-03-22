@@ -1,11 +1,11 @@
 import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
-import ProfileCard from './Components/ProfileCard'
+import PassGen from './Components/PassGen'
 
 const App = () => {
   return (
     <SafeAreaView>
-      <ProfileCard />
+      <PassGen />
     </SafeAreaView>
   )
 }
